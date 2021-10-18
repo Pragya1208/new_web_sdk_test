@@ -3,16 +3,16 @@
     <head>
         <link rel="manifest" href="/new_web_sdk_test/manifest.json">
         <script type="text/javascript">
-            var clevertap = { event: [], profile: [], account: [], onUserLogin: [], notifications: [], privacy: [], region: 'sk1' };
+            var clevertap = { event: [], profile: [], account: [], onUserLogin: [], notifications: [], privacy: [], region: 'eu1' };
             // clevertap.account.push({ id: "W48-7W7-495Z" });
 //             clevertap.account.push({ id: "6K7-R7K-4R6Z" });
-            clevertap.account.push({ id: "W48-7W7-495Z" });
+            clevertap.account.push({ id: "65R-44Z-R65Z" });
             clevertap.enablePersonalization = true;
             (function() {
                 var wzrk = document.createElement("script");
                 wzrk.type = "text/javascript";
                 wzrk.async = true;
-                wzrk.src = "https://cdn.jsdelivr.net/gh/CleverTap/clevertap-web-sdk@develop/clevertap.min.js";
+                wzrk.src = "a-normal.js";
                 var s = document.getElementsByTagName("script")[0];
                 s.parentNode.insertBefore(wzrk, s);
             })();
