@@ -6,8 +6,12 @@
             var clevertap = { event: [], profile: [], account: [], onUserLogin: [], notifications: [], privacy: [], region: 'sk1' };
             // clevertap.account.push({ id: "W48-7W7-495Z" });
 //           //  clevertap.account.push({ id: "6K7-R7K-4R6Z" });
-            clevertap.account.push({ id: "W88-4K6-646Z" });
+            clevertap.account.push({ id: "WR5-Z98-W56Z" });
             clevertap.enablePersonalization = true;
+            window.addEventListener('message',function(event) {
+	if(event.origin !== 'https://inspiring-brown-22b84d.netlify.app/') return;
+	console.log('received response:  ',event.data);
+},false);
             (function() {
                 var wzrk = document.createElement("script");
                 wzrk.type = "text/javascript";
@@ -297,7 +301,7 @@
         <br />
         <br />
         <hr />
-
+        <a href="https://upbeat-jepsen-96d21e.netlify.app/" style = "color: white">Click Me</a>
         <div id="lsData"></div>
     </body>
 </html>
